@@ -1,0 +1,17 @@
+
+
+
+/*Justify text*/
+#content1 p, #content2  p{
+	text-align: justify;
+}
+
+/*Rid space between block elements*/
+#content1, #content2, #content3 {
+	margin-bottom: 0;
+}
+
+
+a:link{
+	color: black;
+}
