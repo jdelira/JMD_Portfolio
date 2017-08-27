@@ -1,0 +1,196 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.navbar {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	 -webkit-transition: background-color 0.5s ease-in-out;
+    -moz-transition: background-color 0.5s ease-in-out;
+    -ms-transition: background-color 0.5s ease-in-out;
+    -o-transition: background-color 0.5s ease-in-out;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.icon-bar{
+	background-color: grey !important;
+}
+
+#logoicon{
+	margin: auto;
+	width: 50px;
+	margin-left: 10px;
+	background: url("../pics/jmdlogo.svg");
+	background-size: cover;
+   background-repeat: no-repeat;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-position: center;
+}
+
+.nav{
+	margin-right: 50px;
+}
+
+
+#profile-pic{
+	width: auto;
+	height: 140px;
+}
+
+#content0, #content1, #content2, #content3{
+	margin: 0;
+}
+
+.backgroundblendmode #content0{
+	
+   height: 980px;
+   background: url("../pics/content0background.svg");
+   background-size: cover;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-position: center;
+}
+
+.no-backgroundblendmode #content0{
+	height: 980px;
+   background-size: cover;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-position: center;
+}
+
+
+#aboutmeheader{
+	color: black;
+	padding-bottom: 40px;
+}
+
+#myexpheader{
+	color: white;
+	padding-bottom: 40px;
+}
+
+#contactmeheader{
+	color: black;
+	padding-bottom: 40px;
+}
+
+#content1{
+	height: 900px;
+	overflow: auto;
+	background-color: transparent;
+}
+
+#content2{
+	height: 900px;
+	background-color: black;
+}
+
+#content3{
+	height: 700px;
+	overflow: hidden;
+	background-color: #222;
+	
+}
+
+#content1 p{
+	padding-left:10%;
+	padding-right: 10%;
+}
+
+#container1, #container2, #container3{
+	margin-top: 100px;
+}
+
+/*keeps vertical slides from overflowing out of bottom of page*/
+.swiper-container-v {
+    height: 500px;
+	max-width: 1000px;
+}    
+
+
+/*IE-vertical swiper compatibility to prevent non-active slides from showing*/
+#vert[class="swiper-slide"], #vert.swiper-slide-prev, #vert.swiper-slide-next{
+	opacity: 0;
+    filter: alpha(opacity=0); 
+}
+
+
+
+
+
+.swiper-container-h .swiper-slide {
+        background-position: center;
+        background-size: cover;
+		width: 400px;
+		height: 400px;
+}
+	
+.swiper-pagination-bullet {
+        width: 20px;
+        height: 20px;
+        text-align: center;
+        line-height: 20px;
+        font-size: 12px;
+        color:#000;
+        opacity: 1;
+        background: rgba(0,0,0,0.1);
+}
+
+.swiper-pagination-bullet-active {
+        color:white;
+        background: #222;
+}
+
+.nav-pills a{
+	color: grey !important;
+}
+
+.nav-pills > .active > a, .nav-pills > .active > a:hover, .nav-pills > .active > a:focus, .nav-pills > li > a:hover, .nav-pills > li > a:focus{
+    color: white !important;
+    background-color: transparent !important;
+}	
+
+.navbar .navbar-nav > .active > a, .navbar .navbar-nav > .active > a:hover, .navbar .navbar-nav > .active > a:focus, .navbar .navbar-nav > li > a:hover, .navbar .navbar-nav > li > a:focus {
+    background-color: transparent;
+    color: white;
+}
+
+.navbar a, .navbar a:link, .navbar a:visited  {
+	color: grey;
+}
+
+#content3 a, #content3 a:link, #content3 a:visited  {
+	color: black;
+}
+
+i:hover,a:hover span{
+    color: white;
+}
+#locationicon:hover{
+	-webkit-filter: invert(100%) !important;
+}
+
+
+#locationicon {
+	max-width: 200px;
+}
+
+
+/*content3 line*/
+#hr-container{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+hr{
+	border: 0;
+	height: 1px;
+	width: 90%;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}

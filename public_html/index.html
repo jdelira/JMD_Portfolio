@@ -1,254 +1,193 @@
 <!DOCTYPE HTML>
+<html class="no-js">
 <head>
     <title>Jonathan Delira Portfolio</title>
     <meta charset="utf-8">
 	<meta http-equiv="expires" content="0">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<!--NON-COMPRESSED SHEETS-->
-	<link rel="stylesheet" type="text/css" href="index.css">
-	<!--COMPRESSED SHEETS-->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+	<!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<!-- Custom CSS -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+	<link rel="stylesheet" href="css/swiper.min.css">
+	<link rel="stylesheet" href="css/jmdportfolio.css">
+	<script src="js/modernizr.js"></script>
 </head>
+ 
+<body id="page-top" data-spy="scroll" data-target=".navbar" data-offset="300">
 
-<body data-spy="scroll" data-target=".navbar">
-
-<!--NAVBAR-->
-<nav class="navbar navbar-light bg-faded">
- <div class="container">
-  <!--NAVBAR HEADER-->
-  <div class="row justify-content-center" style="text-align: center">
-    <h1>Jonathan Delira</h1>
+<!-- Image and text -->
+<nav class="navbar navbar-fixed-top" role="navigation">
+<div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="#page-top" id="logoicon"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li role="presentation"><a class="page-scroll" href="#content1">About</a></li>
+		<li role="presentation"><a class="page-scroll" href="#content2">Work</a></li>
+		<li role="presentation"><a class="page-scroll" href="#content3">Contact</a></li>
+      </ul>
+    </div>
   </div>
-  <!--NAVBAR SUBHEADER-->
-  <div class="row justify-content-center" style="text-align: center">
-    <small>Computer Scientist</small>
-  </div>
-  <!--NAVBAR LINKS-->
-  <ul class="nav nav-justified">
-   <li class="nav-item">
-    <a class="nav-link" href="#content1">About</a>
-   </li>
-   <li class="nav-item">
-    <a class="nav-link" href="#content2">Work</a>
-   </li>
-   <li class="nav-item">
-    <a class="nav-link" href="#content3">Contact</a>
-   </li>
-  </ul>
- </div>
+  
 </nav>
 
 
-<!--CONTENT 1-->
-<div class="jumbotron" id="content1">
-  <div class="container">
-  <!--CONTENT 1 HEADER-->
-   <div class="row justify-content-center">
-    <h3>About</h3>
+<!--Content 0-->
+<div class="jumbotron jumbotron-fluid" id="content0">
+  <div class="container-fluid" id="container0">
+  <!--Content 0 header-->
+   <div class="row justify-content-center" style="text-align: center; margin-top: 200px;">
+    <h1><b>Jonathan Delira</b></h1>
+	<p>Programmer Analyst</p>
    </div>
-   <!--CONTENT 1 DATA-->
-   <div class="row" style="text-align: center">
-  <div class="col-12" id="col1-content1">
-  <img src="pics/JMD-Collage.png" alt="JMD-Collage" class="rounded mx-auto d-block img-fluid" id="self-portrait">
+   <!--Content 0 data-->
+   <div class="row" style="text-align: center" id="content0-data">
+  <div class="col-12" id="col1-content0">
   <div class="caption">
-   <p id="about-me-info">Southern California native now residing in beautiful Deming, New Mexico. Graduated from New Mexico State University in Fall '16 with a Bachelor of Science in Computer Science. During my time at NMSU,  I obtained a diversity of experience in computer science consisting of researching address related data sets so to generate distinct GIS map layers, engineering an android/web application for training soft skills, developing  reusable website templates, and programming a terminal based mazed game. When not working, I am either experimenting with new raspberry pi projects or coaching youth soccer.</p>
+	<img src="pics/circleFace.png" alt="profile-pic" id="profile-pic">
   </div>
   </div>
   </div>
-  
   </div>
 </div>
 
-<!--CONTENT 2-->
-<div class="jumbotron" id="content2">
-  <div class="container">
-  <!--CONTENT 2 HEADER-->
-   <div class="row justify-content-center">
-    <h3>Work</h3>
+<!--Content 1-->
+<div class="jumbotron jumbotron-fluid" id="content1">
+  <div class="container-fluid" id="container1">
+  <!--Content 1 header-->
+   <div class="row justify-content-center" style="text-align: center">
+       <h3 id="aboutmeheader">Get to know me</h3>
+	   <p>I Grew up in Mission Viejo, California. In 2016, I Graduated from New Mexico State University with a Bachelor of Science in Computer Science. After, I was hired on by Syntel Inc. as a Programmer Analyst in Memphis, Tennessee.  My Job duties consist of full stack development using Java, AngularJS, and microservices for maintaining FedEx retail systems. Hobbies include DIY, weightlifting, mountain biking, and learning.
+	   </p>
+   </div>
+  </div>
+</div>
+
+
+<!--Content 2-->
+<div class="jumbotron jumbotron-fluid" id="content2">
+  <div class="container" id="container2">
+  <!--Content 2 header-->
+   <div class="row justify-content-center" style="text-align: center">
+    <h3 id="myexpheader">My experience</h3>
    </div>
    
-  <!--CONTENT 2 DATA-->
-  <div class="row" style="text-align: center">
-    <div class="col-sm-4">
-    <div class="thumbnail">
-     <a href="pics/research1.png" target="_blank">
-     <img src="pics/research1.png" class="rounded float-left" alt="research-image-1" style="width:100%">
-      <div class="caption">
-	   <p>QGIS map-layer view of UNM-Structural shapefile retrieved from NM-RGIS online repository</p>
-      </div>
-     </a>
-    </div>
-	</div>
-	
-	<div class="col-sm-4">
-    <div class="thumbnail">
-     <a href="pics/research2.png" target="_blank">
-     <img src="pics/research2.png" class="rounded float-left" alt="research-image-2" style="width:100%">
-      <div class="caption">
-	   <p>Modified NM-RGIS structural shapefile</p>
-      </div>
-     </a>
-    </div>
-	</div>
-	
-	<div class="col-sm-4">
-    <div class="thumbnail">
-     <a href="pics/research3.png" target="_blank">
-     <img src="pics/research3.png" class="rounded float-left" alt="research-image-3" style="width:100%">
-      <div class="caption">
-	   <p>Achieved structural point linkage of even/odd addresses based on data-attribute value correlation through use of Points2One QGIS Python Plugin</p>
-      </div>
-     </a>
-    </div>
-	</div>
-	
-	<div class="col-sm-4">
-    <div class="thumbnail">
-     <a href="pics/research4.png" target="_blank">
-     <img src="pics/research4.png" class="rounded float-left" alt="research-image-4" style="width:100%">
-      <div class="caption">
-	   <p>Utilized QGIS query-builder to delineate even/odd addresses so to decrease problem complexity and allow further analysis.</p>
-      </div>
-     </a>
-    </div>
-	</div>
-	
-	<div class="col-sm-4">
-    <div class="thumbnail">
-     <a href="pics/research5.png" target="_blank">
-     <img src="pics/research5.png" class="rounded float-left" alt="research-image-5" style="width:100%">
-      <div class="caption">
-	   <p>Activated final modified map-layer view for even/odd layers to verify correctness.</p>
-      </div>
-     </a>
-    </div>
-	</div>
-	
-	<div class="col-sm-4">
-    <div class="thumbnail">
-     <a href="pics/android1.png" target="_blank">
-     <img src="pics/android1.png" class="rounded float-left" alt="android-image-1" style="width:100%">
-      <div class="caption">
-	   <p>Detected first-time application runs for display logo determination by utilizing SharedPreferences API</p>
-      </div>
-     </a>
-    </div>
-	</div>
-	
-	<div class="col-sm-4">
-    <div class="thumbnail">
-     <a href="pics/android2.png" target="_blank">
-     <img src="pics/android2.png" class="rounded float-left" alt="android-image-2" style="width:100%">
-      <div class="caption">
-	   <p>Ensured code maintainability for handling UI events from separating action/behavior events with button onClickListener.</p>
-      </div>
-     </a>
-    </div>
-	</div>
-	
-	<div class="col-sm-4">
-    <div class="thumbnail">
-     <a href="pics/android3.png" target="_blank">
-     <img src="pics/android3.png" class="rounded float-left" alt="android-image-3" style="width:100%">
-      <div class="caption">
-	   <p>Forwarded all first-time users to terms and conditions activity that will continuously prompt for acceptance by user until acceptance action input button clicked.</p>
-      </div>
-     </a>
-    </div>
-	</div>
-	
-	<div class="col-sm-4">
-    <div class="thumbnail">
-     <a href="pics/android4.png" target="_blank">
-     <img src="pics/android4.png" class="rounded float-left" alt="android-image-4" style="width:100%">
-      <div class="caption">
-	   <p>Processed login tasks using Androids native AsyncTask in order to provide improved system performance</p>
-      </div>
-     </a>
-    </div>
-	</div>
-	
-	<div class="col-sm-4">
-    <div class="thumbnail">
-     <a href="pics/web1.png" target="_blank">
-     <img src="pics/web1.png" class="rounded float-left" alt="web-image-1" style="width:100%">
-      <div class="caption">
-	   <p></p>
-      </div>
-     </a>
-    </div>
-	</div>
-	
-	<div class="col-sm-4">
-    <div class="thumbnail">
-     <a href="pics/web2.png" target="_blank">
-     <img src="pics/web2.png" class="rounded float-left" alt="web-image-2" style="width:100%">
-      <div class="caption">
-	   <p></p>
-      </div>
-     </a>
-    </div>
-	</div>
-	
-	<div class="col-sm-4">
-    <div class="thumbnail">
-     <a href="pics/web3.png" target="_blank">
-     <img src="pics/web3.png" class="rounded float-left" alt="web-image-3" style="width:100%">
-      <div class="caption">
-	   <p></p>
-      </div>
-     </a>
-    </div>
-	</div>
+  <!--Content 2 data-->
+  <div class="row" style="text-align: center" id="content2-data">
+   <ul class="nav nav-pills nav-justified">
+      <li role="presentation" class="active"><a class="swiper-link" href="#slide0" data-toggle="pill" >GIS Research</a></li>
+      <li role="presentation"><a class="swiper-link" href="#slide1" data-toggle="pill" >Soft Skill App</a></li>
+      <li role="presentation"><a class="swiper-link" href="#slide2" data-toggle="pill">Maze Game</a></li>
+    </ul>
+   <div class="swiper-container swiper-container-v">
+   <div class="swiper-wrapper">
+   <div class="swiper-slide" id="vert">
+  <div class="swiper-container swiper-container-h" id="slide0">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide swiper-lazy" data-background="pics/research1.png"><div class="swiper-lazy-preloader"></div></div>
+            <div class="swiper-slide swiper-lazy" data-background="pics/research2.png"><div class="swiper-lazy-preloader"></div></div>
+			<div class="swiper-slide swiper-lazy" data-background="pics/research3.png"><div class="swiper-lazy-preloader"></div></div>
+			<div class="swiper-slide swiper-lazy" data-background="pics/research4.png"><div class="swiper-lazy-preloader"></div></div>
+			<div class="swiper-slide swiper-lazy" data-background="pics/research5.png"><div class="swiper-lazy-preloader"></div></div>
+			<div class="swiper-slide swiper-lazy" data-background="pics/research6.png"><div class="swiper-lazy-preloader"></div></div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination swiper-pagination-h"></div>
+  </div>
+  </div>
+ 
+ 
+ <div class="swiper-slide" id="vert">
+  <div class="swiper-container swiper-container-h" id="slide1">
+        <div class="swiper-wrapper">
+		 <div class="swiper-slide swiper-lazy" data-background="pics/sst1.jpg"><div class="swiper-lazy-preloader"></div></div>
+		 <div class="swiper-slide swiper-lazy" data-background="pics/sst2.jpg"><div class="swiper-lazy-preloader"></div></div>
+		 <div class="swiper-slide swiper-lazy" data-background="pics/sst3.jpg"><div class="swiper-lazy-preloader"></div></div>
+		 <div class="swiper-slide swiper-lazy" data-background="pics/sst4.jpg"><div class="swiper-lazy-preloader"></div></div>
+		 <div class="swiper-slide swiper-lazy" data-background="pics/sst5.jpg"><div class="swiper-lazy-preloader"></div></div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination swiper-pagination-h"></div>
+  </div>
+  </div>
+ 
+  <div class="swiper-slide" id="vert">
+  <div class="swiper-container swiper-container-h" id="slide2">
+        <div class="swiper-wrapper">
+		 <div class="swiper-slide swiper-lazy" data-background="pics/maze1.jpg"><div class="swiper-lazy-preloader"></div></div>
+		 <div class="swiper-slide swiper-lazy" data-background="pics/maze2.jpg"><div class="swiper-lazy-preloader"></div></div>
+		 <div class="swiper-slide swiper-lazy" data-background="pics/maze3.jpg"><div class="swiper-lazy-preloader"></div></div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination swiper-pagination-h"></div>
+  </div>
+  </div>
+  </div>
+  </div>
 	</div>
    </div>
 </div>
 
 
 <!--CONTENT 3-->
-<div class="jumbotron" id="content3">
-  <div class="container">
+<div class="jumbotron jumbotron-fluid" id="content3">
+  <div class="container-fluid" id="container3">
    <!--CONTENT 3 HEADER-->
-   <div class="row justify-content-center">
-    <h3>Contact</h3>
+   <div class="row justify-content-center" style="text-align: center">
+    <h3 id="contactmeheader">Need more info?</h3>
    </div>
    <!--CONTENT 3 DATA-->
    <div class="row" style="text-align: center">
    <div class="col-sm-4">
-     <a><i class="fa fa-map-pin" style="font-size:36px"></i></a>
-	 <div class="caption"><p>Deming, NM</p></div>
+     <a><img class="contact" src="pics/TNIcon4.svg" id="locationicon"></a>
+	 <div class="caption"><p>Collierville, TN</p></div>
    </div>
    
    <div class="col-sm-4">
-	 <a><i class="fa fa-phone-square" style="font-size:36px"></i></a>
+	 <a><i class="fa fa-phone-square fa-3x contact"></i></a>
 	 <div class="caption"><p>+1-575-619-0100</p></div>
    </div>
    
    <div class="col-sm-4">
-	 <a><i class="fa fa-envelope" style="font-size: 36px"></i></a>
+	 <a><i class="fa fa-envelope fa-3x contact"></i></a>
 	 <div class="caption"><p>jdelira89@gmail.com</p></div>
    </div>
-   
-   <div class="col-sm-4">
-    <a href="https://www.facebook.com/jdelira89"><i class="fa fa-facebook-official" style="font-size:36px"></i></a>
    </div>
-   
+   <div class="row" style="text-align: center" id="hr-container">
+   <hr>
+   </div>
+   <div class="row" style="text-align: center">
    <div class="col-sm-4">
-    <a href="https://github.com/jdelira "><i class="fa fa-github" style="font-size:36px"></i></a>
+    <a href="https://www.facebook.com/jdelira89"><i class="fa fa-facebook-official fa-3x contact"></i></a>
+   </div>  
+   <div class="col-sm-4">
+    <a href="https://github.com/jdelira "><i class="fa fa-github fa-3x contact"></i></a>
    </div>
    <div class="col-sm-4">
-    <a href="https://www.linkedin.com/in/jonathan-delira"><i class="fa fa-linkedin" style="font-size:36px"></i></a>
+    <a href="https://www.linkedin.com/in/jonathan-delira"><i class="fa fa-linkedin fa-3x contact"></i></a>
    </div>
+  
    </div>
 
   </div>
 </div>
-
-
+ 
 <!--COMPRESSED SCRIPTS-->
-<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+<script src="js/jquery.js"></script>
+<script src="js/swiper.min.js"></script>
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+<script src="js/jmdportfolio.js"></script>
 </body>
 </html>
